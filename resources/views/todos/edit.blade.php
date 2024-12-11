@@ -8,7 +8,7 @@
             @csrf
             @method('PUT')
 
-            <!-- Title Field -->
+     
             <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
                 <input 
@@ -27,7 +27,7 @@
                 @enderror
             </div>
 
-            <!-- Description Field -->
+     
             <div class="mb-3">
                 <label for="description" class="form-label">Description</label>
                 <textarea 
@@ -44,7 +44,7 @@
                 @enderror
             </div>
 
-            <!-- Status Field -->
+            
             <div class="mb-3">
                 <label for="status" class="form-label">Status</label>
                 <select 
@@ -64,7 +64,7 @@
                 @enderror
             </div>
 
-            <!-- Buttons -->
+             
             <div class="d-flex justify-content-between">
                 <button type="submit" class="btn btn-primary">Update</button>
                 <a href="{{ route('todos.index') }}" class="btn btn-secondary">Cancel</a>
